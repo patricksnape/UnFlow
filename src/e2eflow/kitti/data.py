@@ -92,7 +92,7 @@ class KITTIData(Data):
                          fast_dir=fast_dir)
 
     def _fetch_if_missing(self):
-        self._maybe_get_kitti_raw()
+        # self._maybe_get_kitti_raw()
         self._maybe_get_kitti_2012()
         self._maybe_get_kitti_2015()
 
